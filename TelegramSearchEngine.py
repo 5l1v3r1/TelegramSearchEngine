@@ -71,7 +71,7 @@ except Exception as hata:
     print(f"Genel hata alındı ! {id}'ye yollanıyor !\n\n{hata}")
     try:
         bot.send_message(id,f"Genel hata tespit edildi ! \n\n{hata}")
-        bot.
+        
     except:
         print("\n\n\aMesaj yollanamadı . Internet bağlantısında sıkıntı olabilir . 10 saniye Bekleniyor !")
         time.sleep(10)
